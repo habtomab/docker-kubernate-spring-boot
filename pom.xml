@@ -79,7 +79,7 @@
 				<configuration>
 					<source>17</source>
 					<target>17</target>
-					<release>17</release>  <!-- Explicitly define the release version -->
+					<!--<release>17</release>  Explicitly define the release version -->
 				</configuration>
 			</plugin>
 		</plugins>
