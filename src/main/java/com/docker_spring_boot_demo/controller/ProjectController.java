@@ -1,18 +1,20 @@
-package controller;
+package com.docker_spring_boot_demo.controller;
 
 
-import entity.Project;
+import com.docker_spring_boot_demo.entity.Project;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import service.ProjectService;
+import com.docker_spring_boot_demo.service.ProjectService;
 
 import java.util.List;
+import java.util.concurrent.ConcurrentHashMap;
 
 @RestController
 @RequestMapping("/api")
+@CrossOrigin(origins = "http://localhost:4200")
 public class ProjectController {
-
+ConcurrentHashMap concurrentHashMap;
     @Autowired
     private ProjectService projectService;
 

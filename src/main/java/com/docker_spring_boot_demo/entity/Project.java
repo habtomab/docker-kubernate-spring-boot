@@ -1,4 +1,4 @@
-package entity;
+package com.docker_spring_boot_demo.entity;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;

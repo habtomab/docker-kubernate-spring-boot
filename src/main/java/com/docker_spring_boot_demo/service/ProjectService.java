@@ -1,9 +1,9 @@
-package service;
+package com.docker_spring_boot_demo.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import entity.Project;
-import repository.ProjectRepository;
+import com.docker_spring_boot_demo.entity.Project;
+import com.docker_spring_boot_demo.repository.ProjectRepository;
 
 import java.util.List;
 import java.util.Optional;

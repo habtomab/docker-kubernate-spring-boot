@@ -1,6 +1,6 @@
-package repository;
+package com.docker_spring_boot_demo.repository;
 
-import entity.Project;
+import com.docker_spring_boot_demo.entity.Project;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
